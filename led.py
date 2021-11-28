@@ -5,5 +5,5 @@ import wave
 sample = wave.open("./sample.wav", 'rb')
 
 sample_soundwave = sample.readframes(-1)
-
+print("hello world")
 print(sample.getframes())
